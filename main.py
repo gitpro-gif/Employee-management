@@ -5,7 +5,7 @@ app = FastAPI()
 @app.get("/")
 def checkHealth():
     return {
-        "message" : "Fastapi is working"
+        "message" : "Fastapi is working before merge"
     }
 
 
