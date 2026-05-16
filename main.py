@@ -27,7 +27,7 @@ def CreateEmployee(id: int, name: str, department: str):
     
     students.append(student)
     return {
-        "message" : "Student added successfully/seeing what happen",
+        "message" : "Student added successfully/conflict",
         "data": student
     }
 
