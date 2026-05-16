@@ -9,6 +9,13 @@ def checkHealth():
     return {
         "message" : "Fastapi is working before merge"
     }
+    
+@app.get("/getallstudents")
+def getallStudents():
+    return {
+        "message" : students
+    }
+    
 
 @app.post("/addstudent")
 def CreateEmployee(id: int, name: str, department: str):
